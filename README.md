@@ -1,12 +1,53 @@
-# Build and Deploy a React Admin Dashboard App With Theming, Tables, Charts, Calendar, Kanban and More
-![Shoppy](https://i.ibb.co/W6g39w3/image.png)
+PORT=5000
+MONGO_URL=mongodb+srv://jeevitham811:IadjGSBPbc3lqRGT@cluster0.syairli.mongodb.net/
 
-### [🌟 Become a top 1% Next.js 13 developer in only one course](https://jsmastery.pro/next13)
-### [🚀 Land your dream programming job in 6 months](https://jsmastery.pro/masterclass)
+create env file like this
+replace url mongourl
 
-## Introduction
-This is a code repository for the corresponding video tutorial.
+get the project https://github.com/Maclinz/expense-tracker_fullstack
+and push in ur repo with nodemodules
 
-If you want to get a finished, highly customizable Material UI version of a similar dashboard, check out [Flexy React Material Dashboard](https://www.wrappixel.com/templates/flexy-react-material-dashboard-admin/?ref=257&campaign=Flexy).
+after 4 i wont be available 
 
-## Launch your development career with project-based coaching - https://www.jsmastery.pro
+
+
+# frontend setup:
+- npm i 
+- create env file like this
+```
+PORT=5000
+MONGO_URL=mongodb+srv://jeevitham811:IadjGSBPbc3lqRGT@cluster0.syairli.mongodb.net/
+```
+change yoru MONGO_URL
+
+- # backend setup
+- npm i
+- npm start
+
+since i cant set backend i cant check things
+## tihngs to do 
+This application will handle one user details
+(like, i logged in 
+your the owner
+**in expense page** u will note 
+how much money you give to me by filing the details like, - clientname - amount - dateYouGiveMoney - rateOfInterest - dateOfReturn - Mobile
+**in income page** u will note 
+when i give money to you, then you will add that form contains - clientname - amount - CurrentDate 
+
+**usersListing page**
+(in list formate or any designed formate)
+clientname - amountGiven - amountYetTOGive - dateGiven - DateTOBEReturned
+
+# process
+- amount of interest should be calculated in backend this need to be done asper rateof interest 
+- when i click on user a popup comes it will show this details(clientname - amountGiven - amountYetTOGive - dateGiven - DateTOBEReturned)
+- dashboard givenamount and returnedamount graph feature already in project
+- history last 3 transactions feature already in project
+- caluculating balance amount for loggedin user need feature already in project
+- find how we can use for multiple users
+
+  
+ 
+
+
+
